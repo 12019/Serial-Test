@@ -85,6 +85,7 @@
             this.nwbutton.TabIndex = 5;
             this.nwbutton.Text = "NW";
             this.nwbutton.UseVisualStyleBackColor = true;
+            this.nwbutton.Click += new System.EventHandler(this.nwbutton_Click);
             // 
             // nbutton
             // 
@@ -104,6 +105,7 @@
             this.nebutton.TabIndex = 7;
             this.nebutton.Text = "NE";
             this.nebutton.UseVisualStyleBackColor = true;
+            this.nebutton.Click += new System.EventHandler(this.nebutton_Click);
             // 
             // ebutton
             // 
@@ -113,6 +115,7 @@
             this.ebutton.TabIndex = 10;
             this.ebutton.Text = "E";
             this.ebutton.UseVisualStyleBackColor = true;
+            this.ebutton.Click += new System.EventHandler(this.ebutton_Click);
             // 
             // wbutton
             // 
@@ -122,6 +125,7 @@
             this.wbutton.TabIndex = 8;
             this.wbutton.Text = "W";
             this.wbutton.UseVisualStyleBackColor = true;
+            this.wbutton.Click += new System.EventHandler(this.wbutton_Click);
             // 
             // sebutton
             // 
@@ -131,6 +135,7 @@
             this.sebutton.TabIndex = 13;
             this.sebutton.Text = "SE";
             this.sebutton.UseVisualStyleBackColor = true;
+            this.sebutton.Click += new System.EventHandler(this.sebutton_Click);
             // 
             // sbutton
             // 
@@ -140,6 +145,7 @@
             this.sbutton.TabIndex = 12;
             this.sbutton.Text = "S";
             this.sbutton.UseVisualStyleBackColor = true;
+            this.sbutton.Click += new System.EventHandler(this.sbutton_Click);
             // 
             // swbutton
             // 
@@ -149,6 +155,7 @@
             this.swbutton.TabIndex = 11;
             this.swbutton.Text = "SW";
             this.swbutton.UseVisualStyleBackColor = true;
+            this.swbutton.Click += new System.EventHandler(this.swbutton_Click);
             // 
             // Form1
             // 
@@ -169,6 +176,7 @@
             this.Controls.Add(this.connectbtn);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,9 +185,7 @@
         #endregion
 
         private System.Windows.Forms.Button connectbtn;
-        private System.Windows.Forms.TextBox errortext;
         private System.Windows.Forms.Button disconnectbtn;
-        private System.Windows.Forms.ComboBox serialcombo;
         private System.Windows.Forms.Button nwbutton;
         private System.Windows.Forms.Button nbutton;
         private System.Windows.Forms.Button nebutton;
@@ -188,6 +194,8 @@
         private System.Windows.Forms.Button sebutton;
         private System.Windows.Forms.Button sbutton;
         private System.Windows.Forms.Button swbutton;
+        internal System.Windows.Forms.ComboBox serialcombo;
+        internal System.Windows.Forms.TextBox errortext;
     }
 }
 
