@@ -1,0 +1,14 @@
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\bin\Debug\SerialComms.exe.config
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\bin\Debug\SerialComms.exe
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\bin\Debug\SerialComms.pdb
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.csprojResolveAssemblyReference.cache
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.Form1.resources
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.Properties.Resources.resources
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.csproj.GenerateResource.Cache
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.exe
+c:\users\net book\documents\visual studio 2013\Projects\SerialComms\SerialComms\obj\Debug\SerialComms.pdb
+C:\Users\Net Book\Documents\Visual Studio 2013\Projects\SerialComms\SerialComms\bin\Debug\x-IMU API.dll
+C:\Users\Net Book\Documents\Visual Studio 2013\Projects\SerialComms\SerialComms\bin\Debug\x-IMU API.xml
+C:\Users\Net Book\Documents\Visual Studio 2013\Projects\SerialComms\Serial-Test\SerialComms\bin\Debug\SerialComms.exe.config
+C:\Users\Net Book\Documents\Visual Studio 2013\Projects\SerialComms\Serial-Test\SerialComms\obj\Debug\SerialComms.exe
+C:\Users\Net Book\Documents\Visual Studio 2013\Projects\SerialComms\Serial-Test\SerialComms\obj\Debug\SerialComms.pdb
