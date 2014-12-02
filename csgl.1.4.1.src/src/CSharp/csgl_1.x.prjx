@@ -1,0 +1,79 @@
+<Project name="CSharp" description="OpenGL for C#" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CSGLInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GDITextureFont.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GL.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GLU.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGL.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGLControl.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGLException.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGLFont.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGLTexture2D.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\ContextLocal.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\DisplayList.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\TODO.txt" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\XInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GLFlags.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PVoid.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PFloat.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PDouble.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PInt8.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PInt16.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PInt32.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PInt64.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PUInt8.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PUInt16.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PUInt32.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\PUInt64.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RPVoid.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RFloat.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RDouble.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RInt8.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RInt16.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RInt32.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RInt64.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RUInt8.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RUInt16.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RUInt32.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Pointers\RUInt64.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OSLib.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\NativeException.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\Pointer.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\CFunction.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\ScreenSetting.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\ScreenForm.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\DisplayType.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGLContext.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\ControlGLContext.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GDIGLContext.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\Keyboard.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\OpenGL_Extension.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\Util\Mouse.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CsGL\OpenGL" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CsGL\Pointers" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CsGL\Util" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\Palette.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CsGL\OpenGL\GLUT.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References />
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory="..\lib" assembly="csgl" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\lib" assembly="csgl" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\libinstall" assembly="csgl" />
+    </Configuration>
+  </Configurations>
+</Project>

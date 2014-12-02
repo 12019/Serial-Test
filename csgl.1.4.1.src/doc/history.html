@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+	<meta http-equiv="Content-Language" content="en"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+	<meta name="keywords" content="3D, OpenGL, graphics, dotNET, .NET, csharp, C&#35;"/>
+	<meta name="Author" content="Lloyd Dupont"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<title>CsGL - C&#35; graphics library</title>
+</head>
+
+<body>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<!-- left -->
+		<td width="71" valign="top" class="nav">
+			<img src="gfx/navigation.png" alt="Navigation"/>
+		</td>
+	
+		<!-- navigation -->
+		<td width="180" valign="top" class="nav">
+			<img src="gfx/spacer.png" alt=""/>
+			<a href="index.html">Overview</a>
+			<p><a href="projects.html">Projects Using CsGL</a></p>
+			<p><a href="http://sourceforge.net/project/showfiles.php?group_id=33241">Downloads</a></p>
+			<p><a href="screenshots.html">Screenshots</a></p>
+			<p><a href="faq.html">FAQ</a></p>
+			<p><a href="http://www.sourceforge.net/projects/csgl">Sourceforge Page</a></p>
+            <p><a href="http://www.csgl.netfirms.com/cgi-bin/yabb/YaBB.pl">Forum</a></p>
+            <p><a href="index.html#mlist">Mailing List</a></p>
+			<p><a href="authors.html">Authors</a></p>
+			<p><a href="license.html">License</a></p>
+			<p><a href="links.html">Links</a></p>	
+			<p><a href="history.html">History</a></p>
+			<br/><br/><br/><br/><p>
+			<a href="http://validator.w3.org/check/referer"><img src="http://www.w3.org/Icons/valid-xhtml10" border="0" alt="Valid XHTML 1.0!" height="31" width="88"/></a>
+			<a class="right" href="http://jigsaw.w3.org/css-validator/"><img src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" height="31" width="88" border="0"/></a></p>
+			<p><a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=33241&amp;type=1" alt="SourceForge" height="31" width="88" border="0"/></a></p>
+		</td>
+		
+		<!-- middle stripe -->
+		<td width="20" bgcolor="rgb(190,190,190)" valign="top"/>
+		
+		<!-- right -->
+		<td valign="top" class="content">
+		
+			<table cellspacing="10" cellpadding="10" width="100%"><tr><td> <!-- begin helper table -->
+		
+            <!-- <p><hr> -->
+			<h3>News &amp; Info</h3>
+            November 02, 2002
+            <ul>
+            <li> Version <b>1.4.1</b> released!</li>
+            <li>a new forum! again! this one should have a longer life and is quite nice ;-),<br/>
+            please try the <a href="index.html#mlist">mailing list</a> too...</li>
+            <li> Basically it's a maintenance release with lot of debugging.</li>
+            <li> The OpenGLContext creation has been rewrite / enhanced to be more
+            easily customizable</li>
+            <li> The GL generator.exe generated incorrect code, it has been fixed.
+            (and the OpenGL_Extension file regenerated)</li>
+            <li> A rarely see issue with incorrect calling convention on DllImport attribute fixed</li>
+            <li> OpenGLContext(s) could now share their display list with other context,
+            customize your context to take advantage of this feature and save video memory !<br/>
+            of course <b>CsGL.OpenGL.ContextLocal</B> class take advantage of this feature.</li>
+            <li> GDITextureFont work now very fine and simply. And you have a basic example 
+            <tt>&lt;csgl&gt;/examples/CS/gdifont.cs</tt></li>
+            <li> mouse &amp; keyboard event management work now very fine and there is an associated
+            example <tt>&lt;csgl&gt;/examples/CS/event.cs</tt></li>
+            <li>maintenance / compatiblity release of CsGLExample &amp; GLViewer</li>
+            <li>I found this new C&#35;-OpenGL related project 
+            <a href="http://www.headbits.com" target=headbits>http://www.headbits.com</a> with
+            some interesting stuff.</li>
+            </ul>
+            </p>
+		
+            </p><hr/>
+            October 13, 2002
+            <p><b>CsGLExamples 0.9.0 BETA</b> has been released!</p>
+            <p>This release is a beta for CsGL users and the original authors of these ports
+               to review and make any suggestions or offer any assistance before the "public"
+               release.  Most of the Redbook and NeHe lessons are there, as well as, a few
+               others.  (I think there's 99 in this package).  I could use help testing each 
+               of these examples, looking for bugs, correcting known issues, and improving 
+               performance.  Please offer any support you can.  Read the included README.txt 
+               which should answer most of your questions and show you areas where your 
+               contributions would be most valuable.</p>
+            <p>You can get the CsGLExamples package from the Downloads link to your left, 
+               it includes all the source, precompiled release binaries, and data required for 
+               the examples (textures, sounds, etc).  It's a big file.  To run the examples, 
+               you'll need the .Net Framework, I've compiled against 1.0 SP2 (note I've 
+               compiled these against 1.1 beta as well and saw no improvement in speed, in fact 
+               they were slightly slower and used slightly more RAM, so until 1.1 is final I'll 
+               only distribute the 1.0 version).  CsGL has been included both in release and 
+               debug forms, this CsGL is slightly more up-to-date than 1.4.0, however, Lloyd 
+               is working on updating CsGL with the things included here and fixing/improving the 
+               additions (essentially the only new things here are the GLUT shapes, which are 
+               really slow due to the multidimensional arrays I used in my quick and dirty 
+               implementation, and the *hedrons are being corrupted somewhere, so they look all 
+               whack.  Also some new safe wrappers have been added to GL.cs.  I've included 
+               GLUT.cs, though it's compiled into CsGL, in the src directory of the release, 
+               if anyone is interested or wants to improve the speed/search for the corruption).  
+               To compile these you'll need to get NAnt.  All of this information is covered in 
+               the README.txt.  I've also opened a CsGL Examples forum, for feedback, or you can 
+               email me.</p>
+            <p>Also, if you can implement a missing example, or provide a new example, especially 
+               one scheduled to be done in the future (as per the roadmap in the README file), that'd 
+               be great.  I'd also gladly accept any custom examples you've done and want included.  
+               It'd be nice if you could follow the coding conventions used here, including 
+               the usage of the basecode.  If you have suggestions, additions, corrections, improvements 
+               for the basecode, it'd be really nice to recieve these quickly.</p>
+            <p>There's some documentation for the basecode in CsGLExamples\src\CsGL.Basecode\doc. I
+               haven't looked over it closely, so there may be some issues with it.  Also I don't suggest
+               compiling the documentation yourself (nant build-doc) as it takes forever.  It took
+               me close to 6 hours to compile the docs...  NDOC is unbelieveably slow and I don't know why,
+               but it produces great documentation.</p>
+            <p>I hope to get a public 1.0.0 release done in the next couple weeks, depending on my 
+               schedule.  At this time I'll post the examples on gotdotnet, go-mono, and nehe, and 
+               hopefully by doing so we'll get some new CsGL users.  So please, if you see issues 
+               or can offer support, please do so now, rather than waiting a couple weeks.</p>
+            <p>I'd like to thank Lloyd Dupont, Amir Ghezelbash, Jeff Molofee, Robert Schaap, and 
+               Steve Wortham for help on this release and/or providing their examples to be ported.</p>
+            <p>Thanks, Randy Ridge</p>
+            
+            </p><hr/>
+            September 29, 2002
+            <ul>
+            <li> Version <b>1.4.0</b> released!</li>
+            <li> OpenGL 1.1, 1.2, 1.3, 1.4 &amp; 50 additional extensions supported.</li>
+            <li> If you have the latest extension header for  
+            SomeNiftyNewExtensionFromCompanyX you could now automatically 
+            generate the CsGL extension file with <tt>glgenerator.exe</tt> in the 
+            <tt>&lt;CsGL&gt;extras\generator</tt> directory. It comes both
+            precompiled and with source. Check the <tt>README</tt> file first if you want to hack it.
+            <li> Mouse (including Cursor utility) and Keyboard class added to CsGL.Util</Li>
+            <li> New related project,  
+            <a href="http://www21.brinkster.com/trapalas/">http://www21.brinkster.com/trapalas/</a>
+            is a skin file reader and cloth simulator...  very nice demo!</li>
+            <li> The NeHe tutorials have been taken out of the base distribution and will be found 
+            in a separate package, where a new developer (thanks Randy) is doing a really
+            wonderful job and a LOT of tutorials.</a></li>
+            <li> One last thing, I dropped Managed C++, this release is cleaner and is 
+            only comprised of C&#35; and C. This will make it easier to port to other platforms...
+            (provided you have System.Windows.Forms... of course)</li>
+            <li> The regular CsGL forum is broken and until it's fixed we're back to using the forum on
+            SourceForge.</li>
+            <li><b>BUG</b> There is a small pointer corruption somewhere, which I was not able
+			to track until now and I know a very few case where glGetString() and
+			OpenFileDialog (?!) doesn't work as intended.</li>
+            </ul>
+            </p>
+            
+            </p><hr/>
+            July 14, 2002
+            <ul>
+            <li> version 1.3.2 released.</li>
+            <li> some minor bug fixe </Li>
+            <li> a simple doc shipped </li>
+            <li> extension N_Vertex added.</li>
+            <li> <a href="http://dev.galador.net/GLViewer">GLViewer</a> now read .3ds file
+            and have a nice light setting tool</li>
+            <li> project <a href="http://www15.brinkster.com/lilburn/home.asp">Lilburn</a> started. 
+            a 3D engine library </a></li>
+            </ul>
+            </p>
+            
+            </p><hr/>
+            June 16, 2002
+            <ul>
+            <li> version 1.3.1 released. BUGFIXES </li>
+            <li> some people have no drawing. Due to an incorrect report of DOUBLEBUFFER
+            flags for some videocard. This could lead to other problems (incorrect choosing
+             of display type), but at least the drawing occur now. </li>
+            <li> a few change in NeHe example, you could "run.bat" or "make" 
+            without ResBuilder (that is, without embing the resources). </li>
+            <li> there is a VS.NET project wich could build csgl. It only build the weak
+            named version, that you couldn't install.
+            (first uninstall csgl if you want to use it).</li>
+            </ul>
+            </p>
+            
+            </p><hr/>
+            June 14, 2002
+            <ul>
+            <li> version 1.3 released. </li>
+            <li> all 1.1 OpenGL &amp; GLU call now implemented. </li>
+            <li> correct (&amp; safe) implementation for the 2 provided OpenGL extension. </li>
+            <li> there is a basic doc provided (mainly describing C++ object now).</li>
+            <li> the webdemo work locally, launch webdemo.html in 
+            <tt> &lt;csgl&gt;/examples/NeHe</tt>.</li>
+            </ul>
+            </p>
+            
+            </p><hr/>
+            June 2, 2002
+            <ul>
+            <li> version 1.2.1 released. </li>
+            <li> no new functionality (maintenance release) BUT</li>
+            <li> All the foundation have been rewritten in managed C++, much easier to maintain</li>
+            <li> it ship now with a C++ and VB example</li>
+            <li> AND I need GL-extension headers / tutorials / samples / etc... as I have now
+            a tool to build them in a few minutes, but I need material...</li>
+            </ul>
+            
+            </p><hr/>
+            May 21, 2002
+            <ul>
+            <li> version 1.2 released. </li>
+            <li> more bug fixe !</li>
+            <li> I move GLView from csgl to (new) GLViewer application</li>
+            <li> the OpenGLFont and OpenGLTexture2D are now ContextLocal, alloc once, 
+            use on any context easily...</li>
+            <li> the GDITextureFont has a nicer output</li>
+            <li> about 40 new safe function </li>
+            <li> a new related project <a href=http://dev.galador.net/GLViewer>GLViewer</a> </li>
+            </ul>
+            
+            </p><hr/>
+            May 4, 2002
+            <ul>
+            <li> version 1.1 released <p></li>
+            <li> what you all wait for without daring to ask: a Document-view update
+            of CSGL. Commit me to make a lot of change. This new architecture lie mainly on
+            2 new object <b>GLView</b>, an OpenGLControl, displaying the new <b>OpenGLModel</b>
+            object. </br>
+            It also have built in navigation feature.
+            <li>A document (that is <b>OpenGLModel</b>) could be see on a lot of different
+            view at the same time this lead me to create <b>ContextLocal</b> object, an
+            object wich transparently manage OpenGLContext local instance of any object,
+            and one of its most valuable subclass: <b>DisplayList</b>. </li>
+            <li> a new example (<i>./examples/OO</i>) which is quite unfinished now,
+            but provide a nice skeleton of model viewing application. </br>
+            help you to go very rapidly in OpenGL code test without bothering with
+            all init/GUI/etc.. stuff
+            <p></li>
+            <li> now in binary distribution there is <b>lib</b> and <b>libinstall</b> directory 
+            (respectively build with <i>make</i> and <i>make install</i> commands). The first one
+            is an anonymous assembly (which cannot be installed and should lie in
+            you application directory), the other one has a strong name and could be installed
+            with the <i>install.bat</i> provided
+            <p></li>
+            <li> Paul Michael Saunders (<a href=mailto:nus@bigfoot.com>nus@bigfoot.com</a>)
+            take the SDL project project under his responsability, and could now be found
+            at  <a href= http://cs-sdl.sourceforge.net>http://cs-sdl.sourceforge.net</a>
+            <p></li>
+            <li> a sample, unfinished, implementation of OpenGL extension
+            <p></li>
+            <li> Sad news, Jan Nockeman is too busy and leave the project,
+            thank you and see you later Jan
+            <p></li>
+            <li>I remove OpenGLException.AssertGL() and break it into 2 part:
+            <ul>
+            	<li>OpenGLException.Assert(), which test only OpenGL error</li>
+                <li>SystemError.Assert(), which test win32 error
+            </ul>
+            this for maintenance reason. </i>
+            <li> and of course the classical debugging &amp; website updates </li>
+            </ul>
+            
+            </p><hr/>
+            April 23, 2002
+            <ul>
+            <li> version 1.0 for OpenGL released. </li>
+            <li> SDL is no longer supported, but could be find in previous version (up to 0.9.1) </li>
+            <li> few code change but LOT of debugging </li>
+            <li> hmm.. CVS is a bit outdated.. </li>
+            </ul>
+
+            </p><hr/>
+			February 11, 2002
+			<ul>
+            	<li> version 0.9.1 released</li>
+				<li> Many site tweaks, including FAQ section update.</li>
+			</ul>
+			- Jan
+			<br/><br/>
+
+
+            </p><hr/>
+        	December 12, 2001
+            <ul>
+            	<li> version 0.9 released</li>
+            	<li> CsGL is now cut in 2 completly independant part (one SDL, one OpenGL) </li>
+            	<li> new web demo </li>
+                <li> some project one the project page </li>
+            </ul>
+            
+            </p><hr/>
+        	November 16, 2001
+        	<ul>
+            	<li> version 0.2.2 released </li>
+            	<li> a few bug correction with OpenGL </li>
+                <li> SDL_mixer now implemented (though SDL_audio is not and not planned) </li>
+        	</ul>
+        
+            </p><hr/>
+        	November 12, 2001
+        	<ul>
+            	<li> version 0.2.1 released</li>
+            	<li> OpenGLContext class added in OpenGL, essentialy cleaner code in OpenGLControl 
+        	and new "Bitmap ToImage()" method to take screenshot. </li>
+                <li> new OpenGLFont abstract class with an interesting GDITextureFont subclass,
+        	see lesson17 for demo. </li>
+        	<li> new NeHe tutorial 17 and improvement in last tutorial (8, &amp; +) (screenshot, 
+         	faster display...) </li>
+        	</ul>
+        
+            </p><hr/>
+        	October 3, 2001
+        	<ul>
+            	<li> version 0.2.0 released</li>
+            	<li> web demo on CsGL page (http://csgl.sourceforge.net/demo.html) </li>
+        		<li> namespace change. OpenGL becomes CsGL.OpenGL, SDL becomes CsGL.SDL </li>
+                <li> Base class of OpenGL change from GL to OpenGL. from wich inherit GLU, from
+                	which inherit a new class : "GL", which provide safe version of OpenGL call,
+                    with array, enumeration, etc... </li>
+                <li> new objects in OpenGL: Point3D, Transform3D, Quaternion, .. </li>
+                <li> new active contributor: Ben Houston </li>
+        		<li> new SDL classes (sound & CD-Rom) </li>
+                <li> new high level class with cleaner code. </li>
+                <li> NeHe tutorial: example 11 has been improved and it could be transformed in a 
+                	web demo with a very few change now. </li>
+        	</ul>
+        
+            </p><hr/>
+        	August 28, 2001
+        	<ul>
+            	<li> version 0.1.0 released (updated)</li>
+        		<li> new example : the famous Gears </li>
+                <li> basic implementation of SDL comitted </li>
+                <li> NeHe tutorial: lessons 8 &amp; 9. </li>
+        	</ul>
+        
+            </p><hr/>
+        	August 26, 2001
+        	<ul>
+            	<li> version 0.1.0 released (updated)</li>
+        		<li> FAQ added </li>
+        		<li> site update &amp; french version </li>
+        		<li> new example: torus (<i>with asm version bzip-ed</i>) </li>
+        		<li> binary version of example added. </li>
+        	</ul>
+        
+            </p><hr/>
+        	August 14, 2001
+        	<ul>
+            	<li> version 0.1.0 released </li>
+        		<li> first release with most OpenGL function and NeHe tutorial from 2 to 7</li>
+        	</ul>
+        
+			</td></tr></table> <!-- end helper table -->
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

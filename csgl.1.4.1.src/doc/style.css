@@ -1,0 +1,39 @@
+body {
+	font-family : verdana, arial, helvetica, Sans-Serif; 
+	color : black; 
+	background-color : rgb(190,190,190); 
+	margin-left : 0; 
+	margin-right : 0; 
+	margin-top : 0; 
+} 
+code {
+	font-family : courier-new, courier, Monospace; 
+	color : black;
+	background-color : transparent;
+} 
+.nav {
+	background-image : url('gfx/back2.png'); 
+} 
+.content {
+	background-image : url('gfx/back.png'); 
+} 
+:link {
+	color : #990000;
+	background-color : transparent;
+	text-decoration : none; 
+} 
+:visited {
+	color : #990000; 
+	background-color : transparent;
+	text-decoration : none; 
+} 
+:active {
+	color : #990000; 
+	background-color : transparent;
+	text-decoration : none; 
+} 
+:hover {
+	color : #FF0000; 
+	background-color : transparent;
+	text-decoration : none; 
+} 

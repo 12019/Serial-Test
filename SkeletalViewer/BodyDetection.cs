@@ -10,6 +10,8 @@ namespace SkeletalViewer
 {
     class BodyDetection
     {
+        private JointID _hand;
+
 
     }
 }
