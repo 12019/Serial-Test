@@ -1,0 +1,44 @@
+<Project name="Native" description="crée un projet C# en mode console" newfilesearch="None" enableviewstate="False" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\src\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_definition.h" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\include\csgl_native.h" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\include\csgl_pointer.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_pointer.c" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\include\csgl_call.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_call.c" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_screen.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_screen.WIN32.c" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_sys.WIN32.c" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_sys.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_opengl.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_opengl.WIN32.c" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src\csgl_keyboard.WIN32.c" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_keyboard.h" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_mouse.h" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\src\csgl_mouse.WIN32.c" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\include" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\src" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\include\csgl_palette.h" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\src\csgl_palette.WIN32.c" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References />
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory=".\" assembly="Base" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Library" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="Base" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="Base" />
+    </Configuration>
+  </Configurations>
+</Project>

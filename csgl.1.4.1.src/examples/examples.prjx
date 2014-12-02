@@ -1,0 +1,46 @@
+<Project name="examples" description="crée un projet C# en mode console" newfilesearch="None" enableviewstate="False" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CPP\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\VB\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CPP\03.cpp" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\VB\MyForm.vb" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\VB\GLView.vb" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\VB\Model.vb" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CS\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CS\drawimage.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\MSJava\GNUmakefile" subtype="Code" buildaction="Nothing" dependson="" data="" />
+    <File name=".\MSJava\Simple.java" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\MSJava\GLModel.java" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\MSJava\View.java" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CS\display.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CPP" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\VB" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CS" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\MSJava" subtype="Directory" buildaction="Nothing" dependson="" data="" />
+    <File name=".\CS\palette.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CS\gdifont.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CS\quadric.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CS\event.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\CS\run.bat" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References />
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="False" name="Debug">
+    <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory=".\OO" assembly="examples" />
+  </Configuration>
+  <Configurations active="Debug">
+    <Configuration runwithwarnings="False" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\OO" assembly="examples" />
+    </Configuration>
+    <Configuration runwithwarnings="False" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" warninglevel="4" includedebuginformation="True" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory=".\" assembly="examples" />
+    </Configuration>
+  </Configurations>
+</Project>

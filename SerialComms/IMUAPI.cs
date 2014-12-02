@@ -9,7 +9,6 @@ namespace SerialComms
     class IMUAPI
     {
         static AHRS.MadgwickAHRS AHRS = new AHRS.MadgwickAHRS(1f / 256f, 0.1f);
-
         public IMUAPI()
         {
 

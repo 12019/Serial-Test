@@ -11,14 +11,14 @@ namespace SerialComms
     {
 
 
-        //static IMUAPI imu = new IMUAPI();
+        static IMUAPI imu = new IMUAPI();
         [STAThread]
         public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 gui = new Form1();
-            //imu.initIUM();
+            imu.initIUM();
 
             
             Application.Run(gui);    

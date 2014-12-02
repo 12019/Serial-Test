@@ -1,0 +1,24 @@
+<Combine fileversion="1.0" name="csgl_1.x" description="">
+  <StartMode startupentry="CSharp" single="False">
+    <Execute entry="Native" type="None" />
+    <Execute entry="CSharp" type="None" />
+    <Execute entry="examples" type="None" />
+  </StartMode>
+  <Entries>
+    <Entry filename=".\src\Native\Native.prjx" />
+    <Entry filename=".\src\CSharp\csgl_1.x.prjx" />
+    <Entry filename=".\examples\examples.prjx" />
+  </Entries>
+  <Configurations active="Debug">
+    <Configuration name="Release">
+      <Entry name="Native" configurationname="Debug" build="False" />
+      <Entry name="CSharp" configurationname="Debug" build="False" />
+      <Entry name="examples" configurationname="Debug" build="False" />
+    </Configuration>
+    <Configuration name="Debug">
+      <Entry name="Native" configurationname="Debug" build="False" />
+      <Entry name="CSharp" configurationname="Debug" build="False" />
+      <Entry name="examples" configurationname="Debug" build="False" />
+    </Configuration>
+  </Configurations>
+</Combine>
